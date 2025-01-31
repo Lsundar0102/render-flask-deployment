@@ -82,6 +82,7 @@ def get_gemini_response(question, prompt):
 
 
 
+
 @app.route("/get_query_result", methods=["GET"])
 def get_query_result():
     # Get the question parameter from the request
